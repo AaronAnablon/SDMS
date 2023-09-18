@@ -32,7 +32,7 @@ const Header = ({ setViewPort }) => {
         } else if (currentPath === "/Register") {
             setActive('button2');
             setHeader(false);
-        } else if (currentPath === "/Admin/AdminLogin") {
+        } else if (currentPath.includes("/Admin")) {
             setHeader(true);
         } else if (currentPath === "/Admin/AdminRegister") {
             setHeader(true);
