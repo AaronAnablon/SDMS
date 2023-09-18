@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react";
-import { url, headers } from "@/utils/AdminAccountModal"
+import { url, headers } from "@/app/libs/api"
 import axios from "axios";
 import useLoading from "@/utils/Loading";
 import ConfirmationModal from "@/utils/ConfirmationModal";

@@ -6,7 +6,7 @@ import useLoading from "@/utils/Loading";
 import { useProfileData } from "@/app/libs/store";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { url, headers } from "@/utils/AdminAccountModal"
+import { url, headers } from "@/app/libs/api"
 import Layout from "@/components/Layout";
 
 

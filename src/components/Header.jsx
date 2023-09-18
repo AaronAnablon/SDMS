@@ -34,7 +34,7 @@ const Header = ({ setViewPort }) => {
             setHeader(false);
         } else if (currentPath.includes("/Admin")) {
             setHeader(true);
-        } else if (currentPath === "/Admin/AdminRegister") {
+        } else if (currentPath === "/Admin/AdminLogin") {
             setHeader(true);
         }
     }, []);
